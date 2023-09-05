@@ -1,4 +1,13 @@
-# NestJS TOR Block Middleware
+<p align="center">
+  <a href="https://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
+  <a href="https://nestjs.com/" target="blank"><img src="https://www.torproject.org/static/images/tor-logo@2x.png?h=16ad42bc" width="120" alt="Tor Logo" /></a>
+</p>
+
+<p align="center">A simple way to deny access to your application from clients using TOR networks.</p>
+  <p align="center">
+</p>
+
+# NestJS TOR Blocker Middleware
 
 This NestJS application includes a middleware that blocks access to your application from TOR network IP addresses. It fetches a list of TOR exit nodes from the TOR Project's API and compares incoming requests' IP addresses with the list.
 
